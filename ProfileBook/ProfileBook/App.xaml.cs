@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProfileBook.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,10 @@ namespace ProfileBook
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ContentPage
+            {
+                Content = new SignInView()
+            };
         }
 
         protected override void OnStart()
