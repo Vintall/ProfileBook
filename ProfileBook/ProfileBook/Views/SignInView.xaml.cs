@@ -29,12 +29,8 @@ namespace ProfileBook.Views
 
         private void sign_in_button_Pressed(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void sign_up_button_Pressed(object sender, EventArgs e)
-        {
-
-        }
     }
 }

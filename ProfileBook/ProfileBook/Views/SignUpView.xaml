@@ -3,8 +3,95 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProfileBook.Views.SignUpView">
   <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
-  </ContentView.Content>
+        <Grid ColumnSpacing="0" RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Frame Grid.Row="0" BackgroundColor="LightSkyBlue" Padding="0">
+                <Label Text="Users SignUp" FontSize="24" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center"></Label>
+            </Frame>
+            <Frame Grid.Row="1" BackgroundColor="White" Padding="0">
+                <RelativeLayout BackgroundColor="White" x:Name="content_layout">
+                    <Entry BackgroundColor="White" 
+                           x:Name="login_field" 
+                           TextChanged="login_field_TextChanged"
+                           Placeholder="Login"
+                        RelativeLayout.XConstraint="{ConstraintExpression
+                            Type=RelativeToParent, 
+                            Property=Width, 
+                            Factor=0.1}"                                 
+                        RelativeLayout.YConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Height,
+                            Factor=0.2}"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Width,
+                            Factor=0.8}"
+                    />
+                    <Entry BackgroundColor="White" 
+                           x:Name="password_field" 
+                           TextChanged="password_field_TextChanged"
+                           Placeholder="Password"
+                        RelativeLayout.XConstraint="{ConstraintExpression 
+                            Type=RelativeToView, 
+                            Property=X,
+                            ElementName=login_field,
+                            Factor=1}"
+                        RelativeLayout.YConstraint="{ConstraintExpression
+                            Type=RelativeToView,
+                            ElementName=login_field,
+                            Property=Y,
+                            Factor=1,
+                            Constant=75}"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression 
+                            Type=RelativeToView, 
+                            ElementName=login_field, 
+                            Property=Width,
+                            Factor=1}"
+                    />
+                    <Entry BackgroundColor="White" 
+                           x:Name="confirm_password_field" 
+                           TextChanged="confirm_password_field_TextChanged"
+                           Placeholder="Confirm Password"
+                        RelativeLayout.XConstraint="{ConstraintExpression 
+                            Type=RelativeToView, 
+                            Property=X,
+                            ElementName=password_field,
+                            Factor=1}"
+                        RelativeLayout.YConstraint="{ConstraintExpression
+                            Type=RelativeToView,
+                            ElementName=password_field,
+                            Property=Y,
+                            Factor=1,
+                            Constant=75}"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression 
+                            Type=RelativeToView, 
+                            ElementName=password_field, 
+                            Property=Width,
+                            Factor=1}"
+                    />
+                    <Button x:Name="sign_up_button" Pressed="sign_up_button_Pressed" Text="SIGN UP"
+                        RelativeLayout.XConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Width,
+                            Factor=0.1}"
+                        RelativeLayout.YConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Height,
+                            Factor=0.7}"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Width,
+                            Factor=0.8}"
+                        RelativeLayout.HeightConstraint="50"
+                    />
+                </RelativeLayout>
+            </Frame>
+        </Grid>
+    </ContentView.Content>
 </ContentView>
