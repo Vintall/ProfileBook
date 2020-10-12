@@ -5,22 +5,72 @@
   <ContentView.Content>
         <Grid ColumnSpacing="0" RowSpacing="0">
             <Grid.RowDefinitions>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition></RowDefinition>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Frame Grid.Row="0" BackgroundColor="LightSkyBlue" Padding="0">
-                <Label Text="Main List" 
+                <RelativeLayout >
+                    <Label Text="Main List" 
                        FontSize="24" 
-                       TextColor="White" 
-                       VerticalOptions="Center" 
-                       HorizontalOptions="Center"></Label>
+                       TextColor="White"
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.2}"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.3}"
+                       RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.6}"
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.4}"
+                    />
+                    <Button x:Name="settings_button"
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        RelativeLayout.XConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Width,
+                            Factor=1,
+                            Constant=-50}"
+                    />
+                    <Button x:Name="log_out_button"
+                        
+                        HeightRequest="50"
+                        WidthRequest="50"
+                        RelativeLayout.XConstraint="{ConstraintExpression
+                            Type=RelativeToView,
+                            ElementName=settings_button,
+                            Property=X,
+                            Factor=1,
+                            Constant=-50}"
+                    />
+                </RelativeLayout>
+                
             </Frame>
             <Frame Grid.Row="1" BackgroundColor="White" Padding="0">
                 <RelativeLayout BackgroundColor="White" x:Name="content_layout">
-                    
+                    <ListView BackgroundColor="White" x:Name="content_listview">
+                        
+                    </ListView>
+                    <Button  BackgroundColor="Aqua"
+                        RelativeLayout.WidthConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Width,
+                            Factor=0.2}"
+                        RelativeLayout.HeightConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Width,
+                            Factor=0.2}"
+                        RelativeLayout.XConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Width,
+                            Factor=0.8,
+                            Constant=-20}"
+                        RelativeLayout.YConstraint="{ConstraintExpression
+                            Type=RelativeToParent,
+                            Property=Height,
+                            Factor=0.8,
+                            Constant=-20}" CornerRadius="40" ImageSource="Resources/icons/ic_settings.png"
+                    />
                 </RelativeLayout>
             </Frame>
         </Grid>

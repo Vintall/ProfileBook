@@ -11,7 +11,6 @@ C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstanda
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.dll
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ref\ProfileBook.dll
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.pdb
-C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\Views\AddEditProfileView.xaml.g.cs
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\Views\MainListView.xaml.g.cs
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\Views\SettingsView.xaml.g.cs

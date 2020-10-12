@@ -70,7 +70,7 @@
                         RelativeLayout.HeightConstraint="50"
                     />
                     <Label x:Name="sign_up_label" 
-                            HorizontalTextAlignment="Center"
+                           HorizontalTextAlignment="Center"
                            VerticalTextAlignment="Center"
                            
                         RelativeLayout.XConstraint="{ConstraintExpression
@@ -96,7 +96,7 @@
                                       TextDecorations="Underline">
                                 <Span.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding TapCommand}"
-                                          CommandParameter="asd" />
+                                          CommandParameter="asd"/>
                                 </Span.GestureRecognizers>
                             </Span>
                         </FormattedString>

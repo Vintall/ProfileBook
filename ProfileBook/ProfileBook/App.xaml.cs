@@ -13,7 +13,7 @@ namespace ProfileBook
 
             MainPage = new ContentPage
             {
-                Content = new SignInView()
+                Content = new MainListView()
             };
         }
 
