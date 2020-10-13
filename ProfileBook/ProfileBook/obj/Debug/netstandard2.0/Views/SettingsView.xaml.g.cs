@@ -14,7 +14,7 @@ namespace ProfileBook.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SettingsView.xaml")]
-    public partial class SettingsView : global::Xamarin.Forms.ContentView {
+    public partial class SettingsView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {

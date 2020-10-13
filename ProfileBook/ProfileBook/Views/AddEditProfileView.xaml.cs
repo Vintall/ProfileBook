@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ProfileBook.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AddEditProfileView : ContentView
+    public partial class AddEditProfileView : ContentPage
     {
         public AddEditProfileView()
         {

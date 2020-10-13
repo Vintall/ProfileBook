@@ -4,6 +4,9 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms.Internals;
+using Prism;
+using Prism.Ioc;
 
 namespace ProfileBook.iOS
 {
@@ -20,12 +23,23 @@ namespace ProfileBook.iOS
         //
         // You have 17 seconds to return from this method, or iOS will terminate your application.
         //
+
+
+        //static BatteryService batteryService = new BatteryService();
+
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+            LoadApplication(new App(new iOSInitializer()));
 
             return base.FinishedLaunching(app, options);
+        }
+        public class iOSInitializer : IPlatformInitializer
+        {
+            public void RegisterTypes(IContainerRegistry container)
+            {
+
+            }
         }
     }
 }

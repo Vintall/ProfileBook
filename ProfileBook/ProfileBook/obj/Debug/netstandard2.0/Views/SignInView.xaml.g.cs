@@ -14,7 +14,7 @@ namespace ProfileBook.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\SignInView.xaml")]
-    public partial class SignInView : global::Xamarin.Forms.ContentView {
+    public partial class SignInView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.RelativeLayout content_layout;

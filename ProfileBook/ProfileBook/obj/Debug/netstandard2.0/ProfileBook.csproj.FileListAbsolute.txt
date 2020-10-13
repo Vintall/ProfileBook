@@ -6,8 +6,6 @@ C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstanda
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.AssemblyInfoInputs.cache
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.AssemblyInfo.cs
-C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.csproj.CoreCompileInputs.cache
-C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.dll
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ref\ProfileBook.dll
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.pdb
@@ -16,3 +14,5 @@ C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstanda
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\Views\SettingsView.xaml.g.cs
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\Views\SignInView.xaml.g.cs
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\Views\SignUpView.xaml.g.cs
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\ProfileBook.csproj.CoreCompileInputs.cache
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook\obj\Debug\netstandard2.0\XamlC.stamp

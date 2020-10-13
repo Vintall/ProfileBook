@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProfileBook.Views.SignInView">
-  <ContentView.Content>
+             x:Class="ProfileBook.Views.SignInView"
+             Title="{Binding Title}">
+    <ContentPage.Content>
         <Grid ColumnSpacing="0" RowSpacing="0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"></RowDefinition>
@@ -105,5 +106,5 @@
                 </RelativeLayout>
             </Frame>
         </Grid>
-  </ContentView.Content>
-</ContentView>
+  </ContentPage.Content>
+</ContentPage>

@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Prism;
+using Prism.Ioc;
 
 namespace ProfileBook.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SignInView : ContentView
+    public partial class SignInView : ContentPage
     {
         public SignInView()
         {

@@ -463,3 +463,15 @@ C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\9
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Prism.dll
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Prism.dll.mdb
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Prism.Forms.dll
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Prism.Forms.pdb
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Prism.Unity.Forms.dll
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Prism.Unity.Forms.pdb
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\System.Threading.Tasks.Extensions.dll
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Unity.Abstractions.dll
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Unity.Abstractions.pdb
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Unity.Container.dll
+C:\Users\Vintall\Desktop\ProfileBook\ProfileBook\ProfileBook.Android\obj\Debug\90\android\assets\Unity.Container.pdb

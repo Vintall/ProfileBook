@@ -1,11 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "5XKLuBV2V+XtTMdf/Cg0e1LopQ/puT3WksmoooBNmTDI+5Nd9LIAUalkv/YeI2zh8ZDQRfkda8OS/8sUzoEDJw==",
+  "dgSpecHash": "ZtymE2Z1iGSfIiiJQGlFRMQC78Rxn+1RdhoS3LzJFxRYhLPSk+aarx5Zc51/b8t16rj5qV3JJCdezUaeBPImgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vintall\\Desktop\\ProfileBook\\ProfileBook\\ProfileBook.iOS\\ProfileBook.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vintall\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Vintall\\.nuget\\packages\\prism.forms\\7.2.0.1422\\prism.forms.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Vintall\\.nuget\\packages\\prism.unity.forms\\7.2.0.1422\\prism.unity.forms.7.2.0.1422.nupkg.sha512",
+    "C:\\Users\\Vintall\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Vintall\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\Vintall\\.nuget\\packages\\unity.abstractions\\5.11.1\\unity.abstractions.5.11.1.nupkg.sha512",
+    "C:\\Users\\Vintall\\.nuget\\packages\\unity.container\\5.11.1\\unity.container.5.11.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 4.8.0.1534 to 4.6.0.1141. Reference the package directly from the project to select a different version. \r\n ProfileBook.iOS -> ProfileBook -> Xamarin.Forms (>= 4.8.0.1534) \r\n ProfileBook.iOS -> Xamarin.Forms (>= 4.6.0.1141)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

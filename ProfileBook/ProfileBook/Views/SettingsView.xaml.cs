@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace ProfileBook.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class SettingsView : ContentView
+    public partial class SettingsView : ContentPage
     {
         public SettingsView()
         {
